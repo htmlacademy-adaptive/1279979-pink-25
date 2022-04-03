@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <base href="https://htmlacademy-adaptive.github.io/1279979-pink-25/3/">
+</head>
+
+<body class="page__body" style="background-color: rgb(127, 127, 241)">
+  <header class="main-header main-header__background-image">
+    <div class="main-header__container">
+      <a class="main-header__logo">
+        <img class="main-header__logo-image" src="./img/logo-small.svg" width="74" height="23"
+          alt="Логотип мобильной версии.">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__container">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a>Главная</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Фотографии</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Конкурс</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">html academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <p class="main-header__slogan">Взгляните на жизнь иначе!</p>
+    <img class="main-header__image" src="./img/hand-with-phone.png" width="320" height="286" alt="Рука с телефоном.">
+    <div class="main-header__store store">
+      <button class="store__download button-secondary" type="button">Скачать приложение</button>
+      <div class="store__container">
+        <ul class="store__list">
+          <li class="store__item">
+            <a class="store__link store__link--apple" href="#">Эпл Сторе</a>
+          </li>
+          <li class="store__item">
+            <a class="store__link store__link--android" href="#">Гугл Плей</a>
+          </li>
+          <li class="store__item">
+            <a class="store__link store__link--microsoft" href="#">Майкрософт Сторе</a>
+          </li>
+        </ul>
+      </div>
+      <p class="store__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+    </div>
+  </header>
+  <main class="main-container">
+    <h1 class="visually-hidden">Приложение PINK</h1>
+    <section class="advantages">
+      <div class="advantages__container">
+        <header class="advantages__header">
+          <h2 class="visually-hidden">Преимущества</h2>
+          <p class="advantages__intro">Устали от серости мегаполиса?</p>
+          <p class="advantages__slogan">Нам есть, что вам предложить!</p>
+        </header>
+      </div>
+      <div class="advantages__list-container">
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <h3 class="advantages__title">Поднимает настроение</h3>
+            <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в
+              несколько кликов!</p>
+          </li>
+          <li class="advantages__item">
+            <h3 class="advantages__title">Меняет мир вокруг</h3>
+            <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы
+              усилить эффект</p>
+          </li>
+          <li class="advantages__item">
+            <h3 class="advantages__title">Заводит новых друзей</h3>
+            <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите
+              новых</p>
+          </li>
+        </ul>
+      </div>
+      <div class="advantages__image-container">
+        <img class="advantages__image" src="./img/phone-screen-hello.png" width="157" height="320"
+          alt="Телефон со скриншотом Всем Привет!">
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="reviews__container slider">
+        <h2 class="visually-hidden">Отзывы о нас</h2>
+        <div class="reviews__list slider__list">
+          <blockquote class="reviews__item slider__item">
+            <div class="reviews__author-info">
+              <cite class="reviews__author-name">Николай Петров</cite>
+              <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
+                серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </div>
+          </blockquote>
+          <blockquote class="reviews__item slider__item">
+            <div class="reviews__author-info">
+              <cite class="reviews__author-name">Николай Петров</cite>
+              <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
+                серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </div>
+          </blockquote>
+          <blockquote class="reviews__item slider__item">
+            <div class="reviews__author-info">
+              <cite class="reviews__author-name">Николай Петров</cite>
+              <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
+                серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </div>
+          </blockquote>
+        </div>
+        <p class="reviews__toggles slider__toggles">
+          <button class="slider__toggle slider__toggle--current" type="button">1</button>
+          <button class="slider__toggle" type="button">2</button>
+          <button class="slider__toggle" type="button">3</button>
+        </p>
+      </div>
+    </section>
+    <section class="tariff-plan">
+      <div class="tariff-plan__container slider">
+        <h2 class="visually-hidden">Тарифные планы</h2>
+        <table class="tariff-plan__grid slider__content">
+          <tr class="tariff-plan__description">
+            <th class="tariff-plan__title">База<span class="tariff-plan__price">1,99 USD</span></th>
+            <th class="tariff-plan__title tariff-plan__title--hit">Стандарт<span class="tariff-plan__price">3,99
+                USD</span></th>
+            <th class="tariff-plan__title">Анлим<span class="tariff-plan__price">9,99 USD</span></th>
+          </tr>
+          <tr class="tariff-plan__advantage">
+            <td class="tariff-plan__advantage-title tariff-plan__advantage-title--yes">Розовый фильтр</td>
+            <td class="tariff-plan__advantage-title tariff-plan__advantage-title--yes">Розовый фильтр</td>
+            <td class="tariff-plan__advantage-title tariff-plan__advantage-title--yes">Розовый фильтр</td>
+          </tr>
+          <tr class="tariff-plan__advantage">
+            <td class="tariff-plan__advantage-title tariff-plan__advantage-title--no">Смайлики</td>
+            <td class="tariff-plan__advantage-title tariff-plan__advantage-title--yes">Смайлики</td>
+            <td class="tariff-plan__advantage-title tariff-plan__advantage-title--yes">Смайлики</td>
+          </tr>
+          <tr class="tariff-plan__advantage">
+            <td class="tariff-plan__advantage-title tariff-plan__advantage-title-no">Комментарии</td>
+            <td class="tariff-plan__advantage-title tariff-plan__advantage-title-no">Комментарии</td>
+            <td class="tariff-plan__advantage-title tariff-plan__advantage-title-yes">Комментарии</td>
+          </tr>
+        </table>
+        <p class="tariff-plan__toggles slider__toggles">
+          <button class="slider__toggle" type="button">1</button>
+          <button class="slider__toggle slider__toggle--current" type="button">2</button>
+          <button class="slider__toggle" type="button">3</button>
+        </p>
+      </div>
+    </section>
+    <section class="contacts">
+      <h2 class="visually-hidden">Контакты</h2>
+      <div class="contacts__container">
+        <header class="contacts__header">Остались вопросы?Свяжитесь с нами!</header>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <b class="contacts__title">Звоните:</b>
+            <a class="contacts__phone" href="tel:+78125556666">+7 (812) 555-66-66</a>
+          </li>
+          <li class="contacts__item">
+            <b class="contacts__title">Пишите:</b>
+            <a class="contacts__mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </li>
+          <li class="contacts__item">
+            <b class="contacts__title">Приезжайте в гости:</b>
+            <span class="contacts__adress">ул. Большая Конюшенная, 19/8</span>
+          </li>
+        </ul>
+        <img class="contacts__map" src="./img/map.jpg" width="320" height="200" alt="Карта с местоположением офиса.">
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <img class="main-footer__logo" src="./img/logo-footer.svg" width="145" height="40" alt="Логотип приложения.">
+    <div class="main-footer__social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--vk" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+        </li>
+      </ul>
+    </div>
+    <div class="main-footer__copyright copyright">
+      <b class="copyright__text">Разработано</b>
+      <a class="copyright__link copyright__link--academy" href="https://htmlacademy.ru/intensive/adaptive">HTML
+        Academy</a>
+    </div>
+  </footer>
+</body>
+
+</html>
